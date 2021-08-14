@@ -1,0 +1,43 @@
+#home {
+  display       : flex;
+  align-items   : center;
+  flex-direction: column;
+  height        : 100vh;
+  max-width     : 800px;
+  margin        : auto;
+  padding       : 10px 20px;
+
+  header {
+    img {
+      height: 35px;
+    }
+  }
+
+  main {
+    text-align: center;
+    margin-top: 30px;
+
+    >img {
+      max-width : 80%;
+      max-height: 180px;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  }
+
+  footer {
+    position  : absolute;
+    bottom    : 0;
+    width     : 100%;
+    text-align: center;
+
+    .status {
+      padding         : 8px;
+      font-weight     : 500;
+      background-color: #00fa9a;
+    }
+  }
+}

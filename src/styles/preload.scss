@@ -1,0 +1,21 @@
+#preloader {
+  height          : 100%;
+  background-color: #fff;
+  z-index         : 999999999;
+  position        : absolute;
+  width           : 100%;
+  top             : 0;
+  overflow        : hidden;
+
+  .container {
+    height         : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+    >img {
+      height: 100px;
+      width : 100px;
+    }
+  }
+}
